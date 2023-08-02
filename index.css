@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+
+}
+
+hr {
+    display: flex;
+    height: 80%;
+
+
+}
+
+body {
+    background-color: #9AC5F4;
+}
+
+.header-1 {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navi {
+    position: absolute;
+    background-color: palevioletred;
+    left: 20px;
+    top: 20px;
+    width: 5%;
+    height: 95%;
+    border-radius: 5px;
+}
+
+.navi li {
+    list-style-type: none;
+
+}
+.navi ol{
+    margin-top: 14px;
+    display: flex;
+    gap: 55px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.setting {
+    margin-left: 300px;
+}
+
+.setting img {
+    margin-left: 20px;
+}
+
+.search input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 100px;
+    border-color: gray;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+}
+
+.temp-content {
+  
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.main-content {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.temp-out-1 {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+.temp-out-2 {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+.temp-out-3 {
+    display: flex;
+    gap: 50px
+}
+
+.temp-out-1 div {
+    padding: 70px 130px;
+}
+
+.temp-out-2 div {
+    padding: 70px 130px;
+
+}
+
+.member-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #C5DFF8;
+    gap: 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        #00000017 0px -3px 5px;
+    border-radius: 10px;
+    padding: 20px;
+
+
+}
+
+.member-img {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+
+
+}
+
+.member-img li {
+    list-style-type: none;
+
+}
+
+.member-info {
+    background-color: #9AC5F4;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.devices-content {
+    background-color:#9AC5F4 ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.temp-out-3 div {
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.temp-out-3 img {
+    padding: 10px;
+    margin: 10px 30px;
+}
+
+/* .temp-out-3 input,
+button {
+    padding: 5px;
+    width: 40%;
+} */
+
+.temp-out-3 p {
+    padding: 5px;
+}
+
+/* .devices-content-data{
+    display: flex;
+
+} */
+.device-data {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 25px;
+
+}
+
+.device-1 {
+    display: flex;
+    background-color: #fb6490;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.bg-1{
+    background-color:#00000017;
+}
+
+.devices-content-data{
+    margin: 20px 10px;
+}
